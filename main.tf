@@ -31,6 +31,20 @@ resource "digitalocean_droplet" "web2" {
       ]
   }
 
+# Copy file or directories for example config.sh
+  provisioner "file" {
+      inline = [
+          "./config.sh",
+          "/home/"
+      ]
+  }
+
+  provisioner "remote-exec" {
+      inline = [
+          "cd /home && sh config.sh",
+      ]
+  }
+
 
 }
 
