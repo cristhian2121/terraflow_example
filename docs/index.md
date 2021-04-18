@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Example Terraflow
 
 You can use the [editor on GitHub](https://github.com/cristhian2121/terraflow_example/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
